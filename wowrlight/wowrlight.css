@@ -1,0 +1,113 @@
+/* 
+WoW Recrut Light Style
+ Author: Sirlon
+ URL: http://www.gnomx.at
+ */
+
+.wowr-list {
+	list-style: none; !important
+}
+
+.wowr-list:after {
+	content:  '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+	zoom:1;
+}
+
+li.wowr-class {
+	width: 140px;
+	height: 40px;
+	padding: 0px 20px 0px 0px;
+	margin: 0px auto;
+	text-align: right;
+	overflow: hidden;
+}
+
+#wowr-dk {
+	background: url("images/deathknight.png") top left no-repeat;
+}
+
+#wowr-druid {
+	background: url("images/druid.png") top left no-repeat;
+}
+
+#wowr-hunter {
+	background: url("images/hunter.png") top left no-repeat;
+}
+
+#wowr-mage {
+	background: url("images/mage.png") top left no-repeat;
+}
+
+#wowr-priest {
+	background: url("images/priest.png") top left no-repeat;
+}
+
+#wowr-paladin {
+	background: url("images/paladin.png") top left no-repeat;
+}
+
+#wowr-rogue {
+	background: url("images/rogue.png") top left no-repeat;
+}
+
+#wowr-warlock {
+	background: url("images/warlock.png") top left no-repeat;
+}
+
+#wowr-shaman {
+	background: url("images/shaman.png") top left no-repeat;
+}
+
+#wowr-warrior {
+	background: url("images/warrior.png") top left no-repeat;
+}
+
+a.wowr-skill {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 8px 3px 0px 3px !important;
+	vertical-align: baseline;
+	text-indent: -99999px;
+
+	background: transparent url("images/icons.png") no-repeat left top;
+	
+	opacity: 0.3;
+	filter:alpha(opacity=30);
+	
+	border: 1px solid rgba(25, 50, 30, 0.5);
+	
+	
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	
+	-webkit-transition: all 0.4 ease-in-out;
+	-moz-transition: all 0.4 ease-in-out;
+	-o-transition: all 0.4 ease-in-out;
+	transition: all 0.4 ease-in-out;
+}
+
+a.wowr-skill:hover {
+
+	opacity: 0.6;
+	filter:alpha(opacity=60);
+}
+
+a.need {
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	
+	border: 1px solid	#00ff44;
+	-webkit-box-shadow: 0px 0px 2px #00ff44;
+	-moz-box-shadow: 0px 0px 2px #00ff44;
+	box-shadow: 0px 0px 2px #00ff44;
+}
+
+a.need:hover {
+	opacity: 1;
+}
